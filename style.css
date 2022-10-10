@@ -18,6 +18,7 @@ h1 {   /*Global styling */
 h2 {
     font-size: 46px;
     line-height: 54px;
+    /*color: #fff;*/
     color: #222;
 }
 /*No hay h3*/
@@ -79,7 +80,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 10px 80px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
     z-index: 999;
@@ -135,7 +136,7 @@ body {
 
 /* ---------- HOME PAGE ----------*/
 #hero {
-    background-image: url("img/hero4.jpg");
+    background-image: url("img/hero6.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -158,7 +159,7 @@ body {
 #hero button {
     background-image: url("img/button.png"); /*En el video no escala la imagen, sino cambia el la posición del texto con PADDING*/
     background-color: transparent;
-    background-size: 226px 50px;
+    background-size: 190px 50px; /*226px 50px*/
     color: #088178;
     border: 0;
     padding: 18px 80px 14px 65px; /*Top left botton right */
@@ -166,6 +167,7 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+
 }
 
 
@@ -300,11 +302,14 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("img/banner/b2.jpg");
+    /*background-image: url("img/banner/b2.jpg");*/
     width: 100%;
     height: 40vh;
     background-size: cover;
     background-position: center;
+
+    /*--- Nuevo ---*/
+    background-color: #041e42;
 }
 
 #banner h4 {
@@ -338,7 +343,9 @@ body {
     flex-direction: column;
     justify-content:center;
     align-items: flex-start;
-    background-image: url("img/banner/piano_GI.jpg");
+    background-image: url("img/banner/Airbox_2.png");
+    /*background-image: url("img/banner/Airbox_inicio.jpg");*/
+    /*background-image: url("img/banner/piano_GI.jpg");*/
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -346,22 +353,27 @@ body {
     padding: 30px;
 }
 #sm-banner .banner-box2{
-    background-image: url("img/banner/girl_GI.jpg");
+    background-image: url("img/banner/Airlift_2.jpg");
+    /*background-image: url("img/banner/Airlift_inicio.jpg");*/
+    /*background-image: url("img/banner/girl_GI.jpg");*/
 }
 
 
 #sm-banner h4{
-    color: #fff;
+    color: #000;
+    /*color: #fff;*/
     font-size: 20px;
     font-weight: 300;
 }
 #sm-banner h2{
-    color: #fff;
+    color: #088178;   
+    /*color: #fff;*/
     font-size: 28px;
     font-weight: 800;
 }
 #sm-banner span{
-    color: #fff;
+    color: #000;
+    /*color: #fff;*/
     font-size: 14px;
     font-weight: 500;
     padding-bottom: 15px;
@@ -385,7 +397,7 @@ body {
     flex-direction: column;
     justify-content:center;
     align-items: flex-start;
-    background-image: url("img/banner/sky_GI.jpg");
+    background-image: url("img/banner/virus.jpg");
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -394,10 +406,13 @@ body {
     margin-bottom: 20px;
 }
 #banner3 .banner-box2{
-    background-image: url("img/banner/purplegirl_GI.jpg");
+    background-image: url("img/banner/bacteria.jpg");
 }
 #banner3 .banner-box3{
-    background-image: url("img/banner/skyCloud_GI.jpg");
+    background-image: url("img/banner/air-pollution.jpg");
+}
+#banner3 .banner-box4{
+    background-image: url("img/banner/odour.jpg");
 }
 
 #banner3 h2{
@@ -416,7 +431,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("img/banner/whale_Airship.jpg");
+    /*background-image: url("img/banner/whale_Airship.jpg");*/
     background-repeat: no-repeat;
     background-position: 20px 30px;
     background-color: #041e42;
@@ -523,7 +538,9 @@ footer .copyright {
 /* ---------- SHOP PAGE ---------- */
 
 #page-header{
-    background-image: url("img/banner/b1.jpg");
+    background-image: url(img/banner/f1.jpg);
+    /*background-image: url("img/banner/b1.jpg");*/
+    /*background-image: url("img/banner/1531.jpg");*/
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -537,6 +554,8 @@ footer .copyright {
 #page-header h2,
 #page-header p{
     color: #fff;
+    /*color: #1a1a1a;*/
+    /*color: #fff;*/
 }
 
 #pagination {
@@ -619,7 +638,9 @@ footer .copyright {
 
 /* ---------- BLOG PAGE ---------- */
 #page-header.blog-header{
-    background-image: url("img/banner/b19.jpg");
+    background-image: url("img/banner/b3.jpg");
+    /*background-image: url("img/banner/b3.jpg");*/
+    /*background-image: url("img/banner/b19.jpg");*/
 }
 
 #blog {
@@ -633,7 +654,8 @@ footer .copyright {
     padding-bottom: 90px;
 }
 #blog .blog-img{
-    width: 50%;
+    /*width: 50%;*/
+    width: 100%;
     margin-right: 40px;
 }
 #blog img{
@@ -683,7 +705,10 @@ footer .copyright {
 
 /* ---------- ABOUT PAGE ---------- */
 #page-header.about-header{
-    background-image: url("img/about/banner.jpg");
+    background-image: url("img/about/f2.jpg");
+    /*background-image: url(img/about/f1.jpg);*/
+    /*background-image: url("img/about/banner.jpg");*/
+    
 }
 
 #about-head {
